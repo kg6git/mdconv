@@ -1,0 +1,92 @@
+# # # 一般 # # #
+# 環境変数ファイル。.env.exampleはテンプレートとしてバージョン管理に含める
+.env
+.env.*
+!.env.example
+
+# ログファイル
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# # # Node.js # # #
+# パッケージと依存関係
+/node_modules
+
+# ビルド成果物
+/dist
+/build
+
+# その他
+.npm
+.yarn-integrity
+
+
+# # # Python # # #
+# 仮想環境
+# 仮想環境のフォルダ名は 'venv', 'env' など様々なので代表的なものを記載
+/venv
+/env
+/.venv
+/.env
+/env.bak
+/venv.bak
+
+# Pythonキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ライブラリとパッケージング
+/build/
+/dist/
+/sdist/
+/wheels/
+/pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# テストとカバレッジ
+.pytest_cache/
+.tox/
+/htmlcov/
+.coverage
+.coverage.*
+
+# 型チェック
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+# # # OS固有ファイル # # #
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+
+# # # エディタ・IDE設定 # # #
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# JetBrains (PyCharm, WebStormなど)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
